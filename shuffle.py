@@ -35,6 +35,7 @@ for i in answers:
 
 num = random.randint(0,len(words))
 root.geometry("700x400")
+root.configure(bg="light blue")
 lb1=Label(root,font='times 20')   
 lb1.pack(pady=30,ipady=10,ipadx=10)
 answer=StringVar()
